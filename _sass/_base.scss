@@ -1,0 +1,17 @@
+body {
+  background: $yellow;
+  color: $black;
+  display: flex;
+  font-family: $serif;
+  flex-direction: column;
+  line-height: 1.44;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}

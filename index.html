@@ -1,0 +1,15 @@
+---
+layout: home
+---
+
+<ul>
+  <li>Work</li>
+  {% for project in site.projects %}
+    <li>{{ project.title }}</li>
+  {% endfor %}
+
+  <li>Posts</li>
+  {% for project in site.posts %}
+    <li>{{ project.title }}</li>
+  {% endfor %}
+</ul>

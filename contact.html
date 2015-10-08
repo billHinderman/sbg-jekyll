@@ -1,0 +1,38 @@
+---
+layout: page
+title: Contact
+title_display: Echolocate.
+permalink: /contact/
+---
+
+<form action="//formspree.io/bill@billhinderman.com" method="POST">
+  <h2>Hi, there.</h2>
+    <div class="flex-container">
+      <label class="flex-input" for="name">
+        <span class="form-label">To whom are we speaking?<b>*</b></span>
+        <input type="text" name="name" placeholder="Roger Sterling" required>
+      </label>
+
+      <label class="flex-input" for="_replyto">
+        <span class="form-label">And your email?<b>*</b></span>
+        <input type="email" name="_replyto" placeholder="roger@starbasego.com" required>
+      </label>
+    </div>
+
+    <h2>So what's up?</h2>
+    <label for="subject">
+      <span class="form-label">What's the high-level?<b>*</b></span>
+      <input type="subject" name="name" placeholder="There's a bee in the car" required>
+    </label>
+
+    <label for="message">
+      <span class="form-label">And the details?<b>*</b></span>
+      <textarea name="message" cols="40" rows="4" aria-required="true" aria-invalid="false" placeholder="I don't know how it even got in here. The windows have been closed. Bees don't just show up in cars." required></textarea>
+    </label>
+
+    <input type="text" name="_gotcha" style="display:none" />
+    
+    <input type="hidden" name="_next" value="/" />
+
+    <button type="submit">Send<i class="fa fa-envelope-o"></i></button>
+</form>

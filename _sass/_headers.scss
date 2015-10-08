@@ -1,0 +1,35 @@
+.site-header .flex-container {
+  align-items: center;
+  justify-content: space-between;
+}
+.site-title {
+
+}
+#header-logo {
+  width: 5*$em;
+}
+
+.home-header {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  min-height: 100vh;
+  padding: 2*$em;
+}
+
+#home-logo {
+  flex-basis: 25%;
+  max-height: 33.33vh;
+}
+
+#home-bold {
+  position: absolute;
+  bottom: -17vh;
+  height: 50vh;
+  left: 0;
+  width: 100%;
+}
+
+.page-header {
+  
+}
