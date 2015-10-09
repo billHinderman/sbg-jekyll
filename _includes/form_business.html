@@ -1,0 +1,47 @@
+<form action="//formspree.io/bill@billhinderman.com" method="POST">
+  <h2>Hi, there.</h2>
+    <div class="flex-container">
+      <label class="flex-input" for="name">
+        <span class="form-label">To whom are we speaking?<b>*</b></span>
+        <input type="text" name="name" placeholder="Roger Sterling" required>
+      </label>
+
+      <label class="flex-input" for="_replyto">
+        <span class="form-label">And your email?<b>*</b></span>
+        <input type="email" name="_replyto" placeholder="roger@starbasego.com" required pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?">
+      </label>
+
+      <label class="flex-input" for="company">
+        <span class="form-label">Who are you representing?</span>
+        <input type="text" name="company" placeholder="Sterling Cooper & Partners">
+      </label>
+
+      <label class="flex-input" for="job">
+        <span class="form-label">And what do you do there?</span>
+        <input type="text" name="job" placeholder="My name's on the building">
+      </label>
+    </div>
+
+    <h2>Tell us about your project.</h2>
+    <label for="_subject">
+      <span class="form-label">What's the high-level?<b>*</b></span>
+      <input type="text" name="_subject" placeholder="There's a bee in the car" required>
+    </label>
+
+    <label for="message">
+      <span class="form-label">So what's the gist?<b>*</b></span>
+      <textarea name="message" cols="40" rows="4" aria-required="true" aria-invalid="false" placeholder="It's an invite-only Swarm for individuals on the TSA no-fly list." required></textarea>
+    </label>
+
+    <h2>One last thing.</h2>
+    <label for="referral">
+      <span class="form-label">How did you hear about Starbase Go?</span>
+      <input type="referral" name="name" placeholder="Listened to All Along the Watchtower backwards">
+    </label>
+
+    <input type="text" name="_gotcha" style="display:none" />
+    
+    <input type="hidden" name="_next" value="/" />
+
+    <button type="submit">Send<i class="fa fa-envelope-o"></i></button>
+</form>

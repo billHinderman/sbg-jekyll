@@ -11,7 +11,7 @@ textarea,
    font-family: $serif;
    font-size: 1.25*$em;
    padding: .25*$em;
-   min-width: 17*$em;
+   min-width: 16*$em;
    -webkit-appearance: none;
    width: 100%;
    &:hover,
@@ -23,6 +23,7 @@ textarea,
 .form-label {
   display: inline-block;
   font-family: $helvetica;
+  font-size: $em;
   font-weight: bold;
 }
 .flex-input {
