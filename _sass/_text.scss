@@ -1,17 +1,17 @@
 h1 {
   font-family: $helvetica;
-  font-size: 1.999em;
+  font-size: 1.999*$em;
   font-weight: bold;
 }
 
 h2 {
   font-family: $helvetica;
-  font-size: 1.414em;
+  font-size: 1.414*$em;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 1.414em;
+  font-size: 1.414*$em;
 }
 
 .text-black {

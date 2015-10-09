@@ -13,6 +13,7 @@ textarea,
    padding: .25*$em;
    min-width: 16*$em;
    -webkit-appearance: none;
+   transition: border-color .3s;
    width: 100%;
    &:hover,
    &:focus {
