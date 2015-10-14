@@ -11,3 +11,10 @@
   max-width: 64*$em;
   margin: 2*$em auto;
 }
+
+p + *,
+ul + p,
+img + p,
+object + p {
+  margin-top: 1.414*$em;
+}

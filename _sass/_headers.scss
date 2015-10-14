@@ -1,8 +1,10 @@
 .site-header {
-  background: $yellow;
+  position: relative;
+  z-index: 1;
 }
 .site-header .flex-container {
   align-items: center;
+  height: 6.75*$em;
   justify-content: space-between;
 }
 .site-title {
@@ -14,6 +16,7 @@
 
 .home-header {
   align-items: center;
+  background: $yellow;
   display: flex;
   justify-content: flex-end;
   min-height: 100vh;
@@ -36,5 +39,20 @@
 .page-header {
   align-items: center;
   display: flex;
+  justify-content: left;
+  margin-top: -10.75*$em;
   min-height: 66.666vh;
+  position: relative;
+  z-index: 0;
+}
+.page-header:after {
+  border: .375*$em dashed $white_not;
+  border-left: 0;
+  bottom: -33.333%;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 66.666%;
+  z-index: -1;
 }

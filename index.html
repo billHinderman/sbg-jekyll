@@ -2,14 +2,21 @@
 layout: home
 ---
 
-<ul>
-  <li>Work</li>
-  {% for project in site.projects %}
-    <li>{{ project.title }}</li>
-  {% endfor %}
+<section>
+  <div class="wrapper">
+  </div>
+</section>
 
-  <li>Posts</li>
-  {% for project in site.posts %}
-    <li>{{ project.title }}</li>
-  {% endfor %}
-</ul>
+<section>
+  <ul>
+    <li>Work</li>
+    {% for project in site.projects %}
+      <li><a href="{{ project.permalink }}">{{ project.title }}</a></li>
+    {% endfor %}
+
+    <li>Posts</li>
+    {% for project in site.posts %}
+      <li>{{ project.title }}</li>
+    {% endfor %}
+  </ul>
+</section>
