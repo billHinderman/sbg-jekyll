@@ -45,10 +45,22 @@
   position: relative;
   z-index: 0;
 }
-.page-header:after {
-  border: .375*$em dashed $white_not;
+.page-header:before {
+  border: .265125*$em dashed $white_not;
   border-left: 0;
   bottom: -33.333%;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 33.333%;
+  z-index: -1;
+}
+
+.page-header:after {
+  border: .265125*$em dashed $white_not;
+  border-left: 0;
+  bottom: -66.666%;
   content: "";
   height: 100%;
   left: 0;
