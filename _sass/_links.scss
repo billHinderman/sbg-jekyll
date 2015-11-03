@@ -20,9 +20,10 @@
   width: 100%;
 }
 .link:hover:after {
-  background: $yellow;
+  background: $yellow !important;
 }
-.link-inline {
+.link-inline,
+.bar-inline {
   margin: 0 .125*$em;
 }
 
@@ -41,13 +42,18 @@
 
 .bar.bar-hover-black:hover:after,
 .link.bar-hover-black:hover:after {
-  background: $black;
+  background: $black !important;
 }
 .bar.bar-hover-white:hover:after,
 .link.bar-hover-white:hover:after { 
-  background: $white;
+  background: $white !important;
 }
 .bar.bar-hover-yellow:hover:after,
 .link.bar-hover-yellow:hover:after {
-  background: $yellow;
+  background: $yellow !important;
+}
+
+
+.page-main .link-inline {
+  font-size: $em
 }

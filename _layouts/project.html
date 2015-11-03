@@ -1,0 +1,14 @@
+---
+layout: default
+---
+  <header class="page-header" {% if page.bg %}style="background-image: url({{ site.baseurl }}/assets/image/{{ page.bg }});"{% endif %}>
+    <div class="wrapper">
+      <h1 class="post-title">{{ page.title }}</h1>
+    </div>
+  </header>
+
+  <main role="main" class="page-main">
+    {{ content }}
+
+    {% include projects_link.html %}
+  </main>

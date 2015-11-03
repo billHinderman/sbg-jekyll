@@ -1,0 +1,21 @@
+body.theme-dark {
+  background: $black;
+  .page-main {
+    color: $white;
+    .link {
+      color: $white;
+    }
+    .link:after {
+      background: $white;
+    }
+  }
+  
+}
+
+body.theme-yellow {
+  background: $yellow;
+}
+
+body.theme-blue {
+  background: $blue;
+}
