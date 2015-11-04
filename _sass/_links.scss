@@ -8,6 +8,10 @@
   position: relative;
   text-decoration: none;
 }
+.link.text-white,
+.bar.text-white {
+  color: $white;
+}
 .link:after,
 .bar:after {
   background: $black;

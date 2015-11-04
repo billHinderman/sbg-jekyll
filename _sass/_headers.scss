@@ -43,13 +43,10 @@
   display: flex;
   justify-content: left;
   margin-top: -10.75*$em;
-  min-height: 33.333vh;
+  min-height: 66.666vh;
   padding-top: 8.0625*$em;
   position: relative;
   z-index: 0;
-  @media screen and (min-width: $m) {
-    min-height: 66.666vh;
-  }
 }
 
 .theme-dark,
@@ -86,8 +83,8 @@
 .about-oneliner {
   display: block;
   font-family: $helvetica;
-  font-size: 1.25*$em;
+  font-size: 2*$em;
   font-weight: bold;
-  text-align: right;
-  max-width: 25*$em;
+  text-align: left;
+  max-width: 40*$em;
 }
